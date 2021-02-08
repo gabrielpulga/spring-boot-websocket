@@ -1,7 +1,7 @@
 package com.tupinamba.springbootwebsocket.model;
 
-public class ChatMessage {
 
+public class ChatMessage {
     private String content;
     private String sender;
     private MessageType type;
@@ -33,5 +33,4 @@ public class ChatMessage {
     public void setType(MessageType type) {
         this.type = type;
     }
-
 }
